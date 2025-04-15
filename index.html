@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STUDIO | Дизайн интерьеров премиум-класса</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Plus+Jakarta+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Прелоадер -->
+    <div class="preloader">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Шапка -->
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo">STUDIO</a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#projects">Проекты</a></li>
+                    <li><a href="#philosophy">Философия</a></li>
+                    <li><a href="#services">Услуги</a></li>
+                    <li><a href="#testimonials">Отзывы</a></li>
+                    <li><a href="#contact" class="contact-link">Контакты</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Герой секция -->
+    <section class="hero">
+        <div class="hero-slider">
+            <div class="slide active" style="background-image: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80')">
+                <div class="container">
+                    <h1>Элитный дизайн интерьеров</h1>
+                    <p>Создаем пространства, которые вдохновляют</p>
+                    <a href="#contact" class="btn btn-primary">Обсудить проект</a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-down">
+            <span>Листайте вниз</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- О студии -->
+    <section id="philosophy" class="philosophy-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Наша философия</h2>
+                <p>Гармония формы и функциональности</p>
+            </div>
+            <div class="philosophy-grid">
+                <div class="philosophy-item">
+                    <div class="icon"><i class="fas fa-palette"></i></div>
+                    <h3>Эстетика</h3>
+                    <p>Совершенство в каждой детали, безупречный вкус и чувство стиля</p>
+                </div>
+                <div class="philosophy-item">
+                    <div class="icon"><i class="fas fa-ruler-combined"></i></div>
+                    <h3>Функциональность</h3>
+                    <p>Практичные решения, адаптированные под ваш образ жизни</p>
+                </div>
+                <div class="philosophy-item">
+                    <div class="icon"><i class="fas fa-gem"></i></div>
+                    <h3>Эксклюзивность</h3>
+                    <p>Индивидуальный подход и авторские решения для каждого проекта</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Проекты -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Избранные проекты</h2>
+                <p>Последние работы</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="Modern Apartment">
+                    </div>
+                    <div class="project-info">
+                        <h3>Modern Apartment</h3>
+                        <p>Москва, 2023</p>
+                        <a href="#" class="btn-link">Подробнее <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <!-- Еще 2 проекта аналогично -->
+            </div>
+            <div class="text-center">
+                <a href="#" class="btn btn-outline">Все проекты</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Услуги -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Наши услуги</h2>
+                <p>Комплексный подход</p>
+            </div>
+            <div class="services-tabs">
+                <!-- Табы с услугами -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Контакты -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h2>Готовы обсудить ваш проект?</h2>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+7 (999) 123-45-67</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>hello@studio.com</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Москва, ул. Пречистенка, 10</span>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Ваше имя">
+                    <input type="email" placeholder="Email">
+                    <textarea placeholder="Расскажите о вашем проекте"></textarea>
+                    <button type="submit" class="btn btn-primary">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Подвал -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3>STUDIO</h3>
+                    <p>Дизайн интерьеров премиум-класса с 2010 года</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Меню</h3>
+                    <ul>
+                        <li><a href="#projects">Проекты</a></li>
+                        <li><a href="#services">Услуги</a></li>
+                        <li><a href="#contact">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Соцсети</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                        <a href="#"><i class="fab fa-behance"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 STUDIO. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+           
